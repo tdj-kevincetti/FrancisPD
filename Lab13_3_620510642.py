@@ -17,6 +17,8 @@ def word_count(text):
             counts[word] = 1
     return counts
 def main():
+    wordz = input()
+    print(word_count(wordz))
     print(word_count('the quick brown fox jumps over the lazy dog.'))
     print(word_count("He doesn't want to pay $40,000 for a new car, but his wife doesn't seem to care, he said."))
     print(word_count("I'm your father!!!!"))
