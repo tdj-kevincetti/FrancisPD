@@ -19,7 +19,8 @@ def word_count(text):
 def main():
     wordz = input()
     print(word_count(wordz))
-    main()
+    if ord(wordz) != 27: 
+        main()
     print(word_count('the quick brown fox jumps over the lazy dog.'))
     print(word_count("He doesn't want to pay $40,000 for a new car, but his wife doesn't seem to care, he said."))
     print(word_count("I'm your father!!!!"))
